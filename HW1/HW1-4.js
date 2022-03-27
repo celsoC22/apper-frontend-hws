@@ -13,4 +13,4 @@ function isPalindrome(word) {
   
   const word = "racecar".toLowerCase().replace(/[\W_]/g,''); 
   const reversedWord = isPalindrome(word);
-  console.log(reversedWord); // 'True'
+  console.log(reversedWord); // true
